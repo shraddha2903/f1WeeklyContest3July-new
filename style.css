@@ -1,0 +1,149 @@
+.container{
+    
+    color: white;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-1{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: row;
+}
+.sidebar{
+    background-color: black;
+    top:1px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 750px;
+    align-self: flex-start;
+}
+.sidebar-header-img{
+    height: 30px;
+   
+}
+.side-nav{
+    /* position: sticky; */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.nav-text{
+    margin-left: 10px;
+    display: inline;
+}
+.list-item-group1{
+    margin-top: 10px;
+}
+.main{
+    background-color: gray;
+    padding: 20px;
+    margin-left:300px;;
+    margin-right: 0px;
+}
+/* .home-text{
+    margin-left: 0px;
+    margin-left: 10px;
+    
+} */
+.home{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    align-items: center;
+    margin-top: 15px;
+}
+.icon-size{
+    height: 25px;
+    width: 25px;
+    
+}
+.plus-icon-size{
+    background-color: white;
+}
+.g-3{
+    margin-top: 10px;
+    padding: 2px;
+}
+.sidebar-footer{
+    margin-top: 25px;
+}
+
+.main{
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+}
+.main-bg{
+    opacity: 0.9;
+}
+.like{
+    display: flex;
+    align-items: center;
+    justify-content: space-center;
+    margin-left: 80px;
+    background-color: gray;
+    height: 37px;
+    margin-top: 20px;
+border-radius: 4px 0px 0px 4px
+
+
+}
+.like-img{
+    height: 40px;
+}
+.pic-text{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.picture-gallary{
+    display: flex;
+    flex-wrap: wrap;
+}
+.home-active{
+    opacity: 0.6;
+}
+
+
+
+.card1{
+    /* width: 50px;
+    height: 50px; */
+    box-shadow: 2px 5px 50px black;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+#heading{
+    font-size: 15px;
+    font-weight: bold;
+}
+.col-1>img{
+    height: 150px;
+    width: 200px;
+}
+.description{
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+}
+.suggested-shows{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer{
+    background-color: white;
+    display: flex;
+    position: sticky;
+    bottom: 0px;
+    z-index: 2;
+}
+.footer>img{
+    width: 100%;
+}
